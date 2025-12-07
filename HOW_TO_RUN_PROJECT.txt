@@ -1,0 +1,157 @@
+====================================================================
+HOW TO RUN THIS PROJECT ON YOUR COMPUTER - STEP BY STEP GUIDE
+====================================================================
+
+Dear Client,
+
+Follow these simple steps to run the EPL Analysis project on your laptop/computer:
+
+--------------------------------------------------------------------
+STEP 1: CHECK IF YOU HAVE PYTHON INSTALLED
+--------------------------------------------------------------------
+
+1. Open Command Prompt (Windows) or Terminal (Mac/Linux)
+   
+2. Type this command and press Enter:
+   python --version
+
+3. You should see something like "Python 3.8.x" or higher
+
+IF YOU DON'T HAVE PYTHON:
+- Go to: https://www.python.org/downloads/
+- Download Python 3.8 or newer
+- Install it (check "Add Python to PATH" during installation)
+- Restart your computer
+- Try Step 1 again
+
+--------------------------------------------------------------------
+STEP 2: EXTRACT THE PROJECT FILES
+--------------------------------------------------------------------
+
+1. Find the project folder you received
+2. Make sure it contains these files:
+   - EPL_Analysis.ipynb
+   - cleaned_dataset.csv
+   - england-premier-league-2019-to-2020.csv
+   - README.md
+
+--------------------------------------------------------------------
+STEP 3: INSTALL REQUIRED LIBRARIES
+--------------------------------------------------------------------
+
+1. Open Command Prompt or Terminal
+
+2. Navigate to the project folder:
+   cd path/to/project/folder
+   
+   Example (Windows): cd C:\Users\YourName\Desktop\project
+   Example (Mac): cd ~/Desktop/project
+
+3. Copy and paste this command, then press Enter:
+   pip install pandas altair notebook scikit-learn numpy
+
+4. Wait for installation to complete (1-2 minutes)
+   You'll see "Successfully installed..." when done
+
+--------------------------------------------------------------------
+STEP 4: LAUNCH JUPYTER NOTEBOOK
+--------------------------------------------------------------------
+
+1. In the same Command Prompt/Terminal window, type:
+   jupyter notebook
+
+2. Press Enter
+
+3. Your web browser will automatically open showing a file browser
+
+4. You should see your project files listed
+
+--------------------------------------------------------------------
+STEP 5: OPEN AND RUN THE NOTEBOOK
+--------------------------------------------------------------------
+
+1. In the browser, click on: EPL_Analysis.ipynb
+
+2. The notebook will open in a new tab
+
+3. Go to the top menu bar and click: Kernel → Restart & Run All
+
+4. Wait 1-2 minutes for all cells to execute
+
+5. You will see:
+   - All text explanations
+   - All interactive charts (you can hover and click on them!)
+   - All statistical results
+   - Machine learning model predictions
+
+--------------------------------------------------------------------
+STEP 6: VERIFY EVERYTHING WORKS
+--------------------------------------------------------------------
+
+✓ Check that you can see:
+  - Interactive scatter plot where you can select teams
+  - Confusion matrix heatmap
+  - Bar charts showing goals, fouls, referee strictness
+  - Feature importance chart
+  - All 12 sections with text and results
+
+✓ Try the interactive features:
+  - Hover over any chart to see details
+  - On the "Team Archetypes" chart, click and drag to select teams
+  - The bar chart below should update to show only those teams
+
+--------------------------------------------------------------------
+TROUBLESHOOTING
+--------------------------------------------------------------------
+
+PROBLEM: "jupyter: command not found"
+SOLUTION: Make sure you installed jupyter with: pip install notebook
+
+PROBLEM: Charts don't appear
+SOLUTION: Make sure you clicked "Restart & Run All" in the Kernel menu
+
+PROBLEM: "ModuleNotFoundError: No module named 'altair'"
+SOLUTION: Install libraries again: pip install pandas altair scikit-learn
+
+PROBLEM: Browser doesn't open automatically
+SOLUTION: Look in the terminal - you'll see a URL like:
+         http://localhost:8888/?token=...
+         Copy and paste this URL into your browser
+
+--------------------------------------------------------------------
+FOR UNIVERSITY SUBMISSION
+--------------------------------------------------------------------
+
+After verifying the project runs correctly:
+
+1. SUBMIT THE ZIP FILE:
+   - Upload "project_submission.zip" to your university portal
+   - This contains:
+     * EPL_Analysis.ipynb
+     * cleaned_dataset.csv
+     * england-premier-league-2019-to-2020.csv
+     * README.md
+
+2. RECORD YOUR VIDEO:
+   - Use the video_script.pdf as your guide
+   - Record 3-4 minutes showing the notebook running
+   - Demonstrate the interactive features
+   - Upload video to YouTube as "Unlisted"
+   - Submit the YouTube link
+
+3. YOU'RE DONE!
+
+--------------------------------------------------------------------
+NEED HELP?
+--------------------------------------------------------------------
+
+If you get stuck:
+1. Check the README.md file for more detailed instructions
+2. Make sure you have Python 3.8 or higher
+3. Make sure all libraries are installed
+4. Try closing Jupyter and starting again from Step 4
+
+--------------------------------------------------------------------
+Good luck with your submission!
+This is A+ quality work - you should be proud!
+====================================================================
